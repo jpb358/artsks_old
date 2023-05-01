@@ -1,0 +1,82 @@
+[0.008s] Invoking command in '/home/jpb/artsks_ws/build/articubot_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/jpb/artsks_ws/src/articubot_one -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jpb/artsks_ws/install/articubot_one
+[0.072s] -- The C compiler identification is GNU 11.3.0
+[0.114s] -- The CXX compiler identification is GNU 11.3.0
+[0.120s] -- Detecting C compiler ABI info
+[0.151s] -- Detecting C compiler ABI info - done
+[0.157s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.157s] -- Detecting C compile features
+[0.158s] -- Detecting C compile features - done
+[0.160s] -- Detecting CXX compiler ABI info
+[0.193s] -- Detecting CXX compiler ABI info - done
+[0.196s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.196s] -- Detecting CXX compile features
+[0.196s] -- Detecting CXX compile features - done
+[0.201s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.280s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[0.311s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.333s] -- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.372s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.374s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.374s] -- Added test 'lint_cmake' to check CMake code style
+[0.374s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.375s] -- Added test 'xmllint' to check XML markup files
+[0.376s] -- Configuring done
+[0.377s] -- Generating done
+[0.378s] -- Build files have been written to: /home/jpb/artsks_ws/build/articubot_one
+[0.381s] Invoked command in '/home/jpb/artsks_ws/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/jpb/artsks_ws/src/articubot_one -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jpb/artsks_ws/install/articubot_one
+[0.381s] Invoking command in '/home/jpb/artsks_ws/build/articubot_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jpb/artsks_ws/build/articubot_one -- -j32 -l32
+[0.396s] Invoked command in '/home/jpb/artsks_ws/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jpb/artsks_ws/build/articubot_one -- -j32 -l32
+[0.407s] Invoking command in '/home/jpb/artsks_ws/build/articubot_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jpb/artsks_ws/build/articubot_one
+[0.411s] -- Install configuration: ""
+[0.411s] -- Execute custom install script
+[0.411s] -- Symlinking: /home/jpb/artsks_ws/install/articubot_one/share/articubot_one/config/ball_tracker_params_robot.yaml
+[0.414s] -- Symlinking: /home/jpb/artsks_ws/install/articubot_one/share/articubot_one/config/ball_tracker_params_sim.yaml
+[0.417s] -- Symlinking: /home/jpb/artsks_ws/install/articubot_one/share/articubot_one/config/drive_bot.rviz
+[0.422s] -- Symlinking: /home/jpb/artsks_ws/install/articubot_one/share/articubot_one/config/empty.yaml
+[0.424s] -- Symlinking: /home/jpb/artsks_ws/install/articubot_one/share/articubot_one/config/gaz_ros2_ctl_use_sim.yaml
+[0.427s] -- Symlinking: /home/jpb/artsks_ws/install/articubot_one/share/articubot_one/config/gazebo_params.yaml
+[0.430s] -- Symlinking: /home/jpb/artsks_ws/install/articubot_one/share/articubot_one/config/joystick.yaml
+[0.433s] -- Symlinking: /home/jpb/artsks_ws/install/articubot_one/share/articubot_one/config/main.rviz
+[0.436s] -- Symlinking: /home/jpb/artsks_ws/install/articubot_one/share/articubot_one/config/map.rviz
+[0.439s] -- Symlinking: /home/jpb/artsks_ws/install/articubot_one/share/articubot_one/config/mapper_params_online_async.yaml
+[0.442s] -- Symlinking: /home/jpb/artsks_ws/install/articubot_one/share/articubot_one/config/my_controllers.yaml
+[0.445s] -- Symlinking: /home/jpb/artsks_ws/install/articubot_one/share/articubot_one/config/nav2_params.yaml
+[0.448s] -- Symlinking: /home/jpb/artsks_ws/install/articubot_one/share/articubot_one/config/twist_mux.yaml
+[0.451s] -- Symlinking: /home/jpb/artsks_ws/install/articubot_one/share/articubot_one/config/view_bot.rviz
+[0.454s] -- Symlinking: /home/jpb/artsks_ws/install/articubot_one/share/articubot_one/description/camera.xacro
+[0.457s] -- Symlinking: /home/jpb/artsks_ws/install/articubot_one/share/articubot_one/description/depth_camera.xacro
+[0.460s] -- Symlinking: /home/jpb/artsks_ws/install/articubot_one/share/articubot_one/description/face.xacro
+[0.462s] -- Symlinking: /home/jpb/artsks_ws/install/articubot_one/share/articubot_one/description/gazebo_control.xacro
+[0.465s] -- Symlinking: /home/jpb/artsks_ws/install/articubot_one/share/articubot_one/description/inertial_macros.xacro
+[0.468s] -- Symlinking: /home/jpb/artsks_ws/install/articubot_one/share/articubot_one/description/lidar.xacro
+[0.471s] -- Symlinking: /home/jpb/artsks_ws/install/articubot_one/share/articubot_one/description/robot.urdf.xacro
+[0.473s] -- Symlinking: /home/jpb/artsks_ws/install/articubot_one/share/articubot_one/description/robot_core.xacro
+[0.476s] -- Symlinking: /home/jpb/artsks_ws/install/articubot_one/share/articubot_one/description/ros2_control.xacro
+[0.479s] -- Symlinking: /home/jpb/artsks_ws/install/articubot_one/share/articubot_one/launch/ball_tracker.launch.py
+[0.482s] -- Symlinking: /home/jpb/artsks_ws/install/articubot_one/share/articubot_one/launch/camera.launch.py
+[0.485s] -- Symlinking: /home/jpb/artsks_ws/install/articubot_one/share/articubot_one/launch/joystick.launch.py
+[0.488s] -- Symlinking: /home/jpb/artsks_ws/install/articubot_one/share/articubot_one/launch/launch_robot.launch.py
+[0.490s] -- Symlinking: /home/jpb/artsks_ws/install/articubot_one/share/articubot_one/launch/launch_sim.launch.py
+[0.493s] -- Symlinking: /home/jpb/artsks_ws/install/articubot_one/share/articubot_one/launch/localization_launch.py
+[0.496s] -- Symlinking: /home/jpb/artsks_ws/install/articubot_one/share/articubot_one/launch/navigation_launch.py
+[0.499s] -- Symlinking: /home/jpb/artsks_ws/install/articubot_one/share/articubot_one/launch/online_async_launch.py
+[0.501s] -- Symlinking: /home/jpb/artsks_ws/install/articubot_one/share/articubot_one/launch/rplidar.launch.py
+[0.504s] -- Symlinking: /home/jpb/artsks_ws/install/articubot_one/share/articubot_one/launch/rsp.launch.py
+[0.507s] -- Symlinking: /home/jpb/artsks_ws/install/articubot_one/share/articubot_one/worlds/empty.world
+[0.510s] -- Symlinking: /home/jpb/artsks_ws/install/articubot_one/share/articubot_one/worlds/obstacles.world
+[0.513s] -- Symlinking: /home/jpb/artsks_ws/install/articubot_one/share/ament_index/resource_index/package_run_dependencies/articubot_one
+[0.518s] -- Symlinking: /home/jpb/artsks_ws/install/articubot_one/share/ament_index/resource_index/parent_prefix_path/articubot_one
+[0.520s] -- Symlinking: /home/jpb/artsks_ws/install/articubot_one/share/articubot_one/environment/ament_prefix_path.sh
+[0.524s] -- Symlinking: /home/jpb/artsks_ws/install/articubot_one/share/articubot_one/environment/ament_prefix_path.dsv
+[0.528s] -- Symlinking: /home/jpb/artsks_ws/install/articubot_one/share/articubot_one/environment/path.sh
+[0.531s] -- Symlinking: /home/jpb/artsks_ws/install/articubot_one/share/articubot_one/environment/path.dsv
+[0.534s] -- Symlinking: /home/jpb/artsks_ws/install/articubot_one/share/articubot_one/local_setup.bash
+[0.536s] -- Symlinking: /home/jpb/artsks_ws/install/articubot_one/share/articubot_one/local_setup.sh
+[0.539s] -- Symlinking: /home/jpb/artsks_ws/install/articubot_one/share/articubot_one/local_setup.zsh
+[0.542s] -- Symlinking: /home/jpb/artsks_ws/install/articubot_one/share/articubot_one/local_setup.dsv
+[0.545s] -- Symlinking: /home/jpb/artsks_ws/install/articubot_one/share/articubot_one/package.dsv
+[0.548s] -- Symlinking: /home/jpb/artsks_ws/install/articubot_one/share/ament_index/resource_index/packages/articubot_one
+[0.550s] -- Symlinking: /home/jpb/artsks_ws/install/articubot_one/share/articubot_one/cmake/articubot_oneConfig.cmake
+[0.553s] -- Symlinking: /home/jpb/artsks_ws/install/articubot_one/share/articubot_one/cmake/articubot_oneConfig-version.cmake
+[0.556s] -- Symlinking: /home/jpb/artsks_ws/install/articubot_one/share/articubot_one/package.xml
+[0.561s] Invoked command in '/home/jpb/artsks_ws/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jpb/artsks_ws/build/articubot_one
